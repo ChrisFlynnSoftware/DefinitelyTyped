@@ -8157,6 +8157,7 @@ declare namespace kendo.ui {
     }
 
     interface TreeListExcel {
+        allPages?: boolean;
         fileName?: string;
         filterable?: boolean;
         forceProxy?: boolean;
